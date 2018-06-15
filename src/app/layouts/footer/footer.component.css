@@ -1,0 +1,32 @@
+footer{
+    clear: left;
+    height: 76px;
+    background-color: #efefef;
+}
+footer span{
+    font-family: 'OpenSans-Regular';
+    display: inline-block;
+    font-size: 14px;
+    color:  #555559;
+    margin-top: 32px;
+}
+.sp1{
+    margin-left: 20px;
+}
+.sp2{
+    float:right;
+    margin-right: 20px;
+}
+@media (max-width: 800px) {
+    footer{
+        height: 100px;
+    }
+    footer span{
+        margin-top: 16px;
+        /* display: block;   */
+    }
+    .sp2{
+        float: none;
+        margin-left: 20px;
+    }
+}

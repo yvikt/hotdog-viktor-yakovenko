@@ -1,0 +1,54 @@
+.wrap{
+    background-color: #fbd3d3;
+    height: 100%;
+}
+.message{
+    font-family: 'OpenSans-SemiBold';
+    color: #286782;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+.contacts {
+    height: 100%;
+}
+
+input {
+    display: block;
+    width: 250px;
+    height: 2rem;
+    padding: 0 5px;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+    border: 1px solid #eaadad;
+
+}
+textarea{
+    display: block;
+    width:250px;
+    height: 150px;
+    padding: 5px;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+
+button{
+    font-family: 'OpenSans-SemiBold';
+    width: 200px;
+    background: #286782;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    padding: 1rem 0;
+    display: block;
+    margin: 3rem auto;
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../../../assets/fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../../../assets/fonts/OpenSans-SemiBold.woff') format('woff'),
+    url('../../../assets/fonts/OpenSans-SemiBold.ttf')  format('truetype'),
+    url('../../../assets/fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,78 @@
+.headimg {
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%,
+    rgba(255,255,255,0) 30%),
+    url(../../../assets/img/header-image.png) center center no-repeat;
+    height: 33vw;
+    background-size: cover;
+}
+.social {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ccc;
+}
+.social span {
+    font-family: 'ProximaNova-Semibold';
+}
+
+nav {
+    margin-top: -20px;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 2px 4px 1px #ddd ;
+    position: relative;
+}
+ul {
+    font-family: 'OpenSans-SemiBold';
+    font-size: 1.2em;
+    overflow: visible;
+    margin: 0 auto;
+    max-width: 800px;
+    text-transform: uppercase;
+    list-style: outside none none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2.3rem 0;
+}
+li {
+    margin: 0;
+    position: relative;
+    flex-grow: 1;
+}
+
+li a {
+    color: #000;
+}
+
+li > a:hover {
+    color: #f00;
+}
+
+@media (max-width: 600px) {
+    .butn {
+        margin: 1rem auto 0;
+    }
+    ul{
+        flex-direction: column;
+        padding: 0;
+    }
+    li {
+        font-size: .7em;
+        padding: .5rem 0;
+        border-bottom: 1px solid #eee;
+    }
+    .intro{
+        padding: 3rem;
+    }
+    .slogan h1{
+        font-size: 1.5em;
+        letter-spacing: 0;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .logo {
+        max-width: 60px;
+    }
+}

@@ -1,0 +1,17 @@
+<div class="wrap">
+<div class="message">
+  <h1 class="title">Please fill the form and leave your feedback!</h1>
+</div>
+<div class="contacts">
+  <div>
+    <input type="text" ([ngModel])="data.name" placeholder="your name">
+  </div>
+  <div>
+    <input type="email" ([ngModel])="data.email" placeholder="email">
+  </div>
+  <div>
+    <textarea ([ngModel])="data.comment"></textarea>
+  </div>
+  <button (click)="sendData()">Send Data</button>
+</div>
+</div>

@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "assets/fonts/fonts.css";
+
+a {
+    text-decoration: none;
+}
+
+h1.title {
+
+    font-family: 'OpenSans-Light';
+    text-align: center;
+    letter-spacing: -4px;
+    margin: 0;
+    font-weight: 100;
+    font-size: 3.5em;
+    color: #555559;
+}
+
+@media (max-width: 600px) {
+    h1.title {
+        font-size: 1.5em;
+        letter-spacing: 0;
+    }
+}
